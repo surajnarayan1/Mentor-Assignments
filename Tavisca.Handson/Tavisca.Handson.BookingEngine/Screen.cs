@@ -8,7 +8,11 @@ namespace Tavisca.Handson.BookingEngine
 {
     public  class Screen
     {
-        public ISeat[] SeatType { get; set; }
+        public List<Seat>  SeatType { get; set; }
+
+        public int ScreenNumber { get; set; }
+
+        public string PlayingMovie { get; set; }
 
     }
 }

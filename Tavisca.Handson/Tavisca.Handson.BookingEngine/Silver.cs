@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace Tavisca.Handson.BookingEngine
 {
-    public class Silver : ISeat
+    public class Silver : Seat
     {
-
-        public int SeatAvailability { get; set; }
 
         public string Range { get { return "C1-C2"; } }
 
-        public void Book()
-        {
-            throw new NotImplementedException();
-        }
+        //public void Book()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

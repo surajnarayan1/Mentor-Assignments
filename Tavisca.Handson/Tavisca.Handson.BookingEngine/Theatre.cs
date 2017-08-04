@@ -14,7 +14,7 @@ namespace Tavisca.Handson.BookingEngine
 
         public double Rating { get; set; }
 
-        public Screen[] Screen { get; set; }
+        List<Screen> Screens { get; set; }
         
 
 
