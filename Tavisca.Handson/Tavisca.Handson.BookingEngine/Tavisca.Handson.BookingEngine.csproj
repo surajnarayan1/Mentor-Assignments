@@ -40,13 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gold.cs" />
-    <Compile Include="Seat.cs" />
+    <Compile Include="Address.cs" />
+    <Compile Include="Gender.cs" />
+    <Compile Include="Name.cs" />
+    <Compile Include="SeatClass.cs" />
     <Compile Include="Movie.cs" />
-    <Compile Include="Platinum.cs" />
     <Compile Include="Screen.cs" />
-    <Compile Include="Silver.cs" />
+    <Compile Include="SeatRange.cs" />
     <Compile Include="Theatre.cs" />
+    <Compile Include="TimeSlot.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

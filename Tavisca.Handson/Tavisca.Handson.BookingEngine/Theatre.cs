@@ -10,22 +10,25 @@ namespace Tavisca.Handson.BookingEngine
     {
         public string Name { get; set; }
 
-        public string Location { get; set; }
+        public Address Location { get; set; }
 
         public double Rating { get; set; }
 
         List<Screen> Screens { get; set; }
-        
 
 
-        //public Theatre(string theatreName, string theatreLocation, double movieRating)
-        //{
-        //    name = theatreName;
 
-        //    location = theatreLocation;
+        public Theatre(string theatreName, double movieRating)
+            
+        {
+            Name = theatreName;
 
-        //    rating = movieRating;
+           // Location = theatreLocation;
 
-        //}
+            Rating = movieRating;
+
+         //   Screens = noOfScreens;
+
+        }
     }
 }

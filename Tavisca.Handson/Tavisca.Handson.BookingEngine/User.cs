@@ -8,29 +8,29 @@ namespace Tavisca.Handson.BookingEngine
 {
     public class User
     {
-        public string FirstName { get; set; }
-
-        public string LastName { get; set; }
-
-        public int MobileNumber { get; set; }
-
-        public string Gender { get; set; }
-
         public string UserName { get; set; }
 
-        //public User(string firstName,string lastName,int mobileNumber,string gender,string userName)
-        //{
-        //    this.firstName = firstName;
+        public string Password { get; set; }
 
-        //     _lastName  = lastName;
+        public string ContactNumber { get; set; }
 
-        //    _mobileNumber = mobileNumber;
+        public Gender Gender { get; set; }
 
-        //     _gender = gender;
+        public Address Location { get; set; }
 
-        //    _userName = userName;
-        //}
+        public Name Name { get; set; }
 
+        public User(string userName, string password, string contactNumber)
+        {
+            this.UserName = userName;
+
+            this.Password = password;
+
+            this.ContactNumber = contactNumber;
+
+            //  this.Gender = gender;
+
+        }
     }
-   
+
 }
