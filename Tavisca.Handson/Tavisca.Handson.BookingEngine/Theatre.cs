@@ -14,21 +14,21 @@ namespace Tavisca.Handson.BookingEngine
 
         public double Rating { get; set; }
 
-        List<Screen> Screens { get; set; }
+        public List<Screen> Screens { get; set; }
 
 
 
-        public Theatre(string theatreName, double movieRating)
-            
-        {
-            Name = theatreName;
+        //public Theatre(string theatreName,Address theatreLoaction, double movieRating)
 
-           // Location = theatreLocation;
+        //{
+        //    Name = theatreName;
 
-            Rating = movieRating;
+        //    Location = theatreLoaction;
 
-         //   Screens = noOfScreens;
+        //    Rating = movieRating;
 
-        }
+        //    Screens = new List<Screen>();
+
+        //}
     }
 }

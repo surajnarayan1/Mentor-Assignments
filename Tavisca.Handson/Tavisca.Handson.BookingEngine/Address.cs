@@ -15,5 +15,16 @@ namespace Tavisca.Handson.BookingEngine
         public string Country { get; set; }
 
         public string PinCode { get; set; }
+
+        public Address(string city, string state, string country, string pinCode)
+        {
+            City = city;
+
+            State = state;
+
+            Country = country;
+
+            PinCode = pinCode;
+        }
     }
 }

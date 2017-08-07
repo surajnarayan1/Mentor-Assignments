@@ -43,14 +43,16 @@
     <Compile Include="Address.cs" />
     <Compile Include="Gender.cs" />
     <Compile Include="Name.cs" />
-    <Compile Include="SeatClass.cs" />
     <Compile Include="Movie.cs" />
     <Compile Include="Screen.cs" />
-    <Compile Include="SeatRange.cs" />
+    <Compile Include="Seat.cs" />
+    <Compile Include="SeatCategory.cs" />
     <Compile Include="Theatre.cs" />
+    <Compile Include="TheatreManager.cs" />
     <Compile Include="TimeSlot.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

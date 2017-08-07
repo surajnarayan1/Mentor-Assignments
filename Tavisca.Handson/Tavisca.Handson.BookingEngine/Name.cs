@@ -13,5 +13,15 @@ namespace Tavisca.Handson.BookingEngine
         public string MiddleName { get; set; }
 
         public string LastName { get; set; }
+
+        public Name(string firstName,string middleName,string lastName)
+        {
+
+            FirstName = firstName;
+
+            MiddleName = middleName;
+
+            LastName = lastName;
+        }
     }
 }

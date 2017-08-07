@@ -20,17 +20,20 @@ namespace Tavisca.Handson.BookingEngine
 
         public Name Name { get; set; }
 
-        public User(string userName, string password, string contactNumber)
-        {
-            this.UserName = userName;
+        //public User(string userName, string password, string contactNumber,Gender gender,
+        //    Address location,Name name)
+        //{
+        //    UserName = userName;
 
-            this.Password = password;
+        //    Password = password;
 
-            this.ContactNumber = contactNumber;
+        //    ContactNumber = contactNumber;
 
-            //  this.Gender = gender;
+        //    Gender = gender;
 
-        }
+        //    Location = location;
+
+        //}
     }
 
 }

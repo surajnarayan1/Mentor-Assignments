@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Handson.BookingEngi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDemo", "EnumDemo\EnumDemo.csproj", "{BF8C23B5-BBE6-4705-8329-665382D44FEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserData", "UserData\UserData.csproj", "{475A28EA-164B-4BC3-B04B-9398530B320B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheatreData", "TheatreData\TheatreData.csproj", "{334F0C65-9039-414C-8BB9-1C87F70847C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheatreManager", "TheatreManager\TheatreManager.csproj", "{9DE82E9A-BA2C-4A75-8026-66EA42DAEBCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserData", "UserData\UserData.csproj", "{16D05A23-17CC-4307-9EE2-5B1973FDF8BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{BF8C23B5-BBE6-4705-8329-665382D44FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF8C23B5-BBE6-4705-8329-665382D44FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF8C23B5-BBE6-4705-8329-665382D44FEB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{475A28EA-164B-4BC3-B04B-9398530B320B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{475A28EA-164B-4BC3-B04B-9398530B320B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{475A28EA-164B-4BC3-B04B-9398530B320B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{475A28EA-164B-4BC3-B04B-9398530B320B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9DE82E9A-BA2C-4A75-8026-66EA42DAEBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DE82E9A-BA2C-4A75-8026-66EA42DAEBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DE82E9A-BA2C-4A75-8026-66EA42DAEBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DE82E9A-BA2C-4A75-8026-66EA42DAEBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334F0C65-9039-414C-8BB9-1C87F70847C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334F0C65-9039-414C-8BB9-1C87F70847C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334F0C65-9039-414C-8BB9-1C87F70847C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334F0C65-9039-414C-8BB9-1C87F70847C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D05A23-17CC-4307-9EE2-5B1973FDF8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D05A23-17CC-4307-9EE2-5B1973FDF8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D05A23-17CC-4307-9EE2-5B1973FDF8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D05A23-17CC-4307-9EE2-5B1973FDF8BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
