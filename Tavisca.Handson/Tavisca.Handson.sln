@@ -1,15 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Handson.BookingEngine", "Tavisca.Handson.BookingEngine\Tavisca.Handson.BookingEngine.csproj", "{5685B67A-98AF-4531-B8E7-A4C781CEEF2B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDemo", "EnumDemo\EnumDemo.csproj", "{BF8C23B5-BBE6-4705-8329-665382D44FEB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheatreData", "TheatreData\TheatreData.csproj", "{334F0C65-9039-414C-8BB9-1C87F70847C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserData", "UserData\UserData.csproj", "{16D05A23-17CC-4307-9EE2-5B1973FDF8BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileInformationManager", "MobileInformationManager\MobileInformationManager.csproj", "{988AFBEE-5DFA-470A-AF4C-9F5D275E9754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikersClubEnrollment", "BikersClubEnrollment\BikersClubEnrollment.csproj", "{6777EBD6-0F39-4B46-90C9-4266F45599D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDataManupulation", "PersonDataManupulation\PersonDataManupulation.csproj", "{CCD1ED27-3782-4B00-832A-239DCC8BDFC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +25,6 @@ Global
 		{5685B67A-98AF-4531-B8E7-A4C781CEEF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5685B67A-98AF-4531-B8E7-A4C781CEEF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5685B67A-98AF-4531-B8E7-A4C781CEEF2B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF8C23B5-BBE6-4705-8329-665382D44FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF8C23B5-BBE6-4705-8329-665382D44FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF8C23B5-BBE6-4705-8329-665382D44FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF8C23B5-BBE6-4705-8329-665382D44FEB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{334F0C65-9039-414C-8BB9-1C87F70847C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{334F0C65-9039-414C-8BB9-1C87F70847C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{334F0C65-9039-414C-8BB9-1C87F70847C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +33,18 @@ Global
 		{16D05A23-17CC-4307-9EE2-5B1973FDF8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16D05A23-17CC-4307-9EE2-5B1973FDF8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16D05A23-17CC-4307-9EE2-5B1973FDF8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988AFBEE-5DFA-470A-AF4C-9F5D275E9754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988AFBEE-5DFA-470A-AF4C-9F5D275E9754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988AFBEE-5DFA-470A-AF4C-9F5D275E9754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988AFBEE-5DFA-470A-AF4C-9F5D275E9754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6777EBD6-0F39-4B46-90C9-4266F45599D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6777EBD6-0F39-4B46-90C9-4266F45599D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6777EBD6-0F39-4B46-90C9-4266F45599D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6777EBD6-0F39-4B46-90C9-4266F45599D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD1ED27-3782-4B00-832A-239DCC8BDFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD1ED27-3782-4B00-832A-239DCC8BDFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD1ED27-3782-4B00-832A-239DCC8BDFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD1ED27-3782-4B00-832A-239DCC8BDFC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnumDemo
+namespace BikersClubEnrollment
 {
-    class Program
+    public class Class1
     {
         static void Main(string[] args)
         {
+            Person person = new Person();
+            Console.WriteLine(person);
+            Console.ReadKey();
         }
     }
 }
