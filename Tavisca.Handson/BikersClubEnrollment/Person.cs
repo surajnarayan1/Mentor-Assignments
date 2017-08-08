@@ -12,35 +12,24 @@ namespace BikersClubEnrollment
 
         public DateTime DateOfBirth { get; set; }
 
-        public int Age { get; set; }
+        public String Age { get; set; }
 
         public Gender Gender { get; set; }
 
         public Person()
         {
-            Name name = new Name()
-            {
-                Title=Title.Mr,
+            Name = new Name(Title.Mr, "Amit", "Prakash", "Kashyap");
 
-                FirstName = "Amit",
+            DateOfBirth = new DateTime(2008, 5, 1, 8, 30, 52);
 
-                MiddleName = "Prakash",
-
-                LastName = "Kashyap",
-            };
-
-           
-        
-            DateTime date1 = new DateTime(2008, 5, 1, 8, 30, 52);
-
-            Age = 25;
+            Age = "Age=25";
 
             Gender=Gender.Male;
 
         }
         public override string ToString()
         {
-            return "Person: " + Name + " " +DateOfBirth+ " " + Age+ " " + Gender;
+            return "Person: "+Name+ " " + " " +DateOfBirth+ " " + Age+ " " + Gender;
         }
         
     }

@@ -15,5 +15,20 @@ namespace BikersClubEnrollment
         public string MiddleName { get; set; }
 
         public string LastName { get; set; }
+
+        public Name(Title title, string firstName, string middleName, string lastName)
+        {
+            Title = title;
+
+            FirstName = firstName;
+
+            MiddleName = middleName;
+
+            LastName = lastName;
+        }
+        public override string ToString()
+        {
+            return Title+" " + FirstName+" " + MiddleName +" "+LastName;
+        }
     }
 }
